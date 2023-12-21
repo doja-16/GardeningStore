@@ -1,0 +1,10 @@
+.message{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the message is above the background */
+    text-align: center;
+    font-size: 30px;
+    margin-top: -50px;
+  }

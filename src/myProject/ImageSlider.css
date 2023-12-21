@@ -1,0 +1,62 @@
+/* src/ImageSlider.css */
+body
+{
+  background: none;
+}
+/* Basic styles for the slider container */
+.slider-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Styles for the individual slides */
+.slick-slide img {
+  width: 100%; 
+  height: 465px; 
+  object-fit:scale-down;
+
+
+}
+
+/* Styles for the dots navigation */
+.slick-dots {
+  position: absolute; /* Position the dots absolutely */
+  bottom: 10px; /* Distance from the bottom */
+  list-style: none; /* Remove default list styling */
+  display: flex; /* Display the dots in a row */
+  justify-content: center; /* Center align the dots */
+  width: 100%; /* Make sure it spans the entire width */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styles for individual dot */
+.slick-dots li button {
+  font-size: 0; 
+  width: 10px; 
+  height: 10px; 
+  margin: 0 5px; 
+  padding: 5px; 
+  border: none;
+  border-radius: 50%; 
+  background-color: rgba(255, 255, 255, 0.5); 
+  cursor: pointer; 
+}
+
+/* Active dot style */
+.slick-dots li.slick-active button {
+  background-color: white;
+}
+
+/* src/ImageSlider.css */
+
+/* Ensure the container takes up the full width and hides overflow */
+.slider-container {
+  width: 150%; /* Take full width of the parent container */
+  overflow: hidden; /* Hide any overflowing content */
+}
+
+/* Adjust the slide container to remove any unwanted space */
+.slick-list {
+  margin: 0 -15px; /* Adjust the margins to remove any side padding */
+  overflow: hidden; /* Hide any overflowing content */
+}

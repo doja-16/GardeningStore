@@ -1,22 +1,21 @@
-
-import './App.css'
 import Log from './myProject/Loginform';
 import Sigin from './myProject/Siginin';
 import {BrowserRouter,Link,Routes,Route} from "react-router-dom";
-import Navigate from './navigate';
+import Main from './myProject/Main';
+import 'font-awesome/css/font-awesome.min.css';
+
+
 function App() {
   return (
     <div>
-
-        <BrowserRouter>
-        <Navigate></Navigate>
+         <BrowserRouter>
         <Routes>
-          <Route path="/login" element= <Log/> > </Route>
-          <Route path="/signup" element= <Sigin/> > </Route>
+          <Route path="/" element= {<Log></Log> }> </Route>
+          <Route path="/signup" element= {<Sigin/>} > </Route>
+          <Route path="/main" element= {<Main/>} > </Route>
         </Routes>
-        </BrowserRouter>
-
-
+        </BrowserRouter> 
+        
     </div>
   );
 }

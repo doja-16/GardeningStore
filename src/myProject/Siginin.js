@@ -1,42 +1,33 @@
+import '../logs.css'
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 export default function Siginin() {
-  const navigate=useNavigate();
-  const loginButton=()=>{navigate("/login")}
-    return (
-      <div>
-        <div class="login-box">
-      <h1 class="anto">Sign Up</h1>
-        <div class="welcome">            
+  const navigate = useNavigate();
+  const loginButton = () => { navigate("/") }
+  return (
+    <div className="doja">
+      <div class="signup-box">
+        <h1 class="anto">Sign Up</h1>
+        <div class="welcome">
+          <p class="riha">Welcome back! Login in with</p>
+          <button class="do">facebook</button><button class="jo">google</button>
         </div>
-      <form>
-        <br></br>
-        <br></br>
-        <br></br>
-        <input type="name" placeholder="First Name" />
-        <br></br>
-        <br></br>
-        <input type="name" placeholder="Last Name" />
-        <br></br>
-        <br></br>
-        <input type="email" placeholder="Email" />
-        <br></br>
-        <br></br>
-    
-        <input type="password" placeholder="Password" />
-        <br></br>
-        <br></br>
-        <input type="password" placeholder="Confirm Password" />
-        <br></br>
-        <br></br>
-        <input type="button" value="Sign Up" />
-      </form>
-    </div>
-    <a class="qu" onClick={loginButton}>
-      Already a member! Log In
-    </a>
-    
+        <p class="gol"> or use ur e-mail</p>
+        <form>
+          <input type="name" placeholder="Enter Name" />
+          <br></br><br></br>
+          <input type="email" placeholder="Email" />
+          <br></br><br></br>
+          <input type="password" placeholder="Password" />
+          <input type="button" value="Create Account" />
+          <a class="fei" onClick={loginButton}>
+            Already a member!
+            <Link to={'/'}>Log In</Link>
+          </a>
+        </form>
       </div>
-    )
-  }
+
+    </div>
+  )
+}
 

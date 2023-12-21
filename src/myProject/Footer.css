@@ -1,0 +1,41 @@
+/* src/Footer.css */
+
+.footer {
+    background-color: #333; /* Set a background color */
+    color: #fff; /* Set text color */
+    padding: 20px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center-align the content */
+    width:103%
+}
+
+/* Styles for Social Media Icons */
+.social-icons {
+    margin-top: 15px; /* Add some space between text and icons */
+}
+
+.social-icons a {
+    color: #fff; /* Set icon color */
+    font-size: 24px; /* Set icon size */
+    margin-right: 10px;
+    display:contents;
+    margin-top: 10px;
+    margin-left: 50%; /* Add margin around each icon for spacing */
+    transition: color 0.3s; /* Smooth transition for color change */
+  }
+  
+  .social-icons a:hover {
+    color: #ddd; /* Change icon color on hover */
+  }
+  
+  /* Styles for Contact Link */
+  .footer-link {
+    color: #fff; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    margin-left: 47%; /* Add some margin for spacing */
+    transition: color 0.3s; /* Smooth transition for color change */
+  }
+  
+  .footer-link:hover {
+    color: #ddd; /* Change text color on hover */
+  }
+  

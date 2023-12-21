@@ -1,0 +1,170 @@
+image{
+  opacity: 50%;
+  
+}
+
+.doja{
+  background-image:url(garden1.jpg);
+  margin: 0;
+  padding: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a{
+  display: flex;
+}
+.signup-box {
+  width: 320px;
+  height: 480px;
+  margin: auto;
+  background-color: white;
+  margin-top: 100px;
+  border-radius: 13px;
+  padding-right: 5px;
+}
+.login-box {
+  width: 320px;
+  height: 450px;
+  margin: auto;
+  border-radius: 13px;
+  background-color: white;
+  padding-right: 5px;
+  margin-top: 100px;
+
+}
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+h4 {
+  text-align: center;
+}
+form {
+  width: 250px;
+  padding-left: 45px;
+  padding-top: 0px;
+  align-items: center;
+  align-content:center;
+ 
+}
+
+
+form input {
+  margin-left: -15px;
+  margin-top: 6px;
+  width: 100%;
+  height:25px;
+  padding: 8px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"] {
+  width: 200px;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: 10px;
+  border: none;
+  background-color: #13ad37c9;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.jo{
+  width: 125px;
+  height: 33px;
+  border-radius:5px;
+  margin-top: 30px;
+  margin-left: 02px;
+  background-color: #c21111;
+  color: white;
+  border:none;
+  font-size: 18px;
+}
+.do{
+   border-radius: 5px;
+  width: 125px;
+  height: 33px;
+  margin-top: 10px;
+  margin-left: -35px;
+  border:none;
+  background-color: #1b64b8;
+  color: white;
+  font-size: 18px;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.welcome
+{
+  text-align:center;
+  color: rgb(26, 97, 212);
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.riha
+{
+  text-align:center;
+  color: rgb(26, 97, 212);
+  margin-top: 50px;
+  margin-bottom: -10px;
+  
+  margin-left: -30px;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.riya
+{
+  margin-top: 5px;
+  margin-left: -160px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.anto
+{
+  margin-bottom: -50px;
+  
+  margin-top: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.qe{
+  padding-top: -60px;
+  padding-left: -60px;
+  margin-left: 700px;
+  color: aliceblue;
+
+}
+::placeholder
+{
+  font-family:'Courier New', Courier, monospace;
+}
+.gol
+{
+margin-left: -20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+margin-top: 0px;
+}
+.fei
+{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+
