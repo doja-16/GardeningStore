@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Home from './Home'
 import Footer from './Footer'
+import Footer1 from './Footer1'
 import { useLocation } from 'react-router-dom'
 import './Main.css'
 export default function Main() {
@@ -16,6 +17,7 @@ export default function Main() {
         <div class="message">
             <h3>Welcome {username}!</h3>
         </div>
+     <Footer1/>
      <Footer/>
     </div>
   )

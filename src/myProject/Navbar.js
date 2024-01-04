@@ -6,13 +6,13 @@ import { Link, useNavigate } from 'react-router-dom'
 function Navbar() {
   const navigate = useNavigate();
   const loginButton = () => { navigate("/") }
-  const [isOpen, setIsOpen] = useState(false);
+  //const [isOpen, setIsOpen] = useState(false);
 
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <h1 className="navbar-logo">Ugaoo</h1>
-        <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
+        <div className={`navbar-links`}>
           <a href="#home">Plants</a>
           <a href="#about">Seeds</a>
           <a href="#services">Planters</a>
@@ -21,9 +21,7 @@ function Navbar() {
           <Link to={'/'}>Log Out</Link>
 
         </div>
-        <button className="navbar-toggle" onClick={() => setIsOpen(!isOpen)}>
-          Menu
-        </button>
+        
       </div>
     </nav>
   );

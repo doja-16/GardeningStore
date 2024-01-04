@@ -1,7 +1,7 @@
 /* src/Navbar.css */
 .navbar {
     background-color: #4d7730;
-    padding: 0px 50px;
+    padding: 0px 1px;
     
   }
   .navbar {
@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    padding: 10px 40px;
+    padding: 10px 29px;
     background: linear-gradient(rgb(121, 177, 58), rgb(84, 196, 19), rgb(67, 149, 32));
   }
   

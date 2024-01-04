@@ -162,7 +162,8 @@ margin-top: 0px;
 }
 .fei
 {
-  padding-left: 10px;
+  margin-left: 10px;
+  margin-top: -10px;
   padding-top: 10px;
 }
 
